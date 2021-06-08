@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta chares="UTF-8">
+    <title>Jenn's Coffee Shop - contact Us</title>
+</head>
+
+
+<body>
+    <!--This is an HTML comment-->
+    <!--
+    commamd + left-right arrow keys move to start or end of line
+    command + up-down arrow keys to start or end of page
+    shift + left-right arrow keys select per character
+    shift + up-down arrow keys celect per line
+    shift + command + left-right arrow keys select to the end or start of the line
+    shift + command + up-down arrow keys select to the end or start of the page
+    shift + option + lift-right arrow keys select per word-->
+    <!--h1 is the most important heading we can use 6 levels of headings from h1 to h6-->
+    <!--Site Header-->
+    <header>
+        <h1>Jenn's Coffee Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Starting main content of page-->
+    <main>
+        <h2>Contact Us</h2>
+        <!---->
+        <table>
+            <caption>Hours of Operation</caption>
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Hours</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> Mon - Fri</td>
+                    <td> 6 AM - 9 PM</td>
+                </tr>
+                <tr>
+                    <td>Sat</td>
+                    <td> 8 AM - 11PM</td>
+                </tr>
+                <tr>
+                    <td>Sun</td>
+                    <td>Closed</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+        <!--  -->
+        <section>
+            <h3>We love to hear from you!</h3>
+            <!-- -->
+            <form action="thanks,html" method="get">
+                <div>
+
+
+                    <label for="fullname">Your Name</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="John Doe" value="Mr.">
+
+                </div>
+                <div>
+                    <label for="youremail">Email</label>
+                    <input type="email" id="youremail" name="youremail" required>
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea name="massege" id="message"></textarea>
+                </div>
+                <div>
+                    <label for="tickets">How many tickets? &#40;sold in pairs&#41;</label>
+                    <input type="number" id="tickets" name="tickets" min="2" max="10" step="2" value="2">
+                </div>
+                <div>
+                    <label for="row">Select Row</label>
+                    <select name="row" id="row">
+                        <option value="front">Front Row</option>
+                        <option value="center" selected>Center Row</option>
+                        <option value="back">Back Row</option>
+                    </select>
+                </div>
+                <div>
+                    <h3>Have you been here before?</h3>
+                    <label for="yse">Yes</label>
+                    <input type="radio" id="yes" name="past" checked>
+                    <label for="no">No</label>
+                    <input type="radio" id="no" name="past">
+                </div>
+                <div>
+                    <h3>Policies</h3>
+                    <input type="checkbox" name="policies" id="policies">
+                    <label for=" policies">I agree to the term and policies</label>
+                </div>
+                <button type="submit">Submit</button>
+
+            </form>
+        </section>
+
+    </main>
+    <!--Site Footer-->
+    <fotter>
+        Copyright &copy; Jenn&apos;s Coffee Shop, 2021
+
+    </fotter>
+</body>
+
+
+
+</html>
