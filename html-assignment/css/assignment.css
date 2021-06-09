@@ -1,0 +1,50 @@
+body {
+    font-family: 'Times New Roman', Times, serif ; 
+    font-size: 18px;
+    color: darkslategrey;
+}
+
+h1,
+.site-footer{
+    background-color: darkslategrey;
+}
+
+.site-footer,
+ .site-titel {
+        color: ivory;
+    }
+
+    #my-image {
+        box-shadow: 0 0  2px 1px black;
+    }
+
+p+ul {
+    list-style-type: square; 
+    }
+p+ul li:nth-child(odd)  {
+    color: ivory;
+    background-color: darkolivegreen;
+    width: 100px
+}
+    
+nav ul a,
+nav ul a:link
+nav ul a:visited{
+    box-shadow: -2px 1px 2px darkolivegreen;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav ul a:hover,
+nav ul a:focus{
+    background-color: olivedrab;
+}
+
+nav ul a:active {
+    text-decoration: underline;
+}
+
