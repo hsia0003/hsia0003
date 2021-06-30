@@ -1,0 +1,139 @@
+/* Adding background color*/
+.html,
+body {
+    background-color: #aad4cf;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+/* Using position:absolute */
+.header {
+    width: 1024px;
+}
+
+h1 {
+    position: absolute;
+    top: 160px;
+    width: 100%;
+    font-size: 50px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0 360px 0 360px;
+
+}
+
+/* styling header image */
+header img .site_header {
+    width: 1024px;
+}
+
+
+h2 {
+    margin: 10px;
+    font-size: 30px;
+}
+
+h3 {
+    margin: 10px;
+    font-size: 25px;
+}
+
+p {
+    margin: 10px;
+    height: auto;
+    width: auto;
+    font-family: sans-serif;
+}
+
+
+/* Adding float for image - text around the image */
+div img:nth-child(1) {
+    width: 180px;
+    float: left;
+    margin: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+/* Remove list style of navigation */
+nav ul {
+    list-style: none;
+    margin: 0mm;
+    text-align: center;
+    padding: 0;
+}
+
+/* Adding style for navigation */
+nav ul li {
+    display: inline-block;
+    padding: 10px 30px 10px 30px;
+    width: 30%;
+    box-sizing: border-box;
+
+}
+
+/* Line beteewn the navigation */
+.navline {
+    border-right: dotted darkslategray 2px;
+}
+
+/* Adding hover and focus */
+nav ul a:hover,
+nav ul a:focus {
+    text-decoration: underline overline dotted;
+}
+
+nav ul a {
+    display: block;
+    color: darkslategray;
+    text-decoration: none;
+    font-size: 1.4em;
+}
+
+section {
+    padding: 5px;
+}
+
+form div #yourname,
+#youremail,
+#yourmessage {
+    width: 100%;
+}
+
+.mainbody,
+footer,
+header {
+    background-color: #ebfcfa;
+    max-width: 1024px;
+    margin: auto;
+}
+
+.factsaboutstarfish {
+    padding-left: 28px;
+}
+
+/* CSS for Contact to learn more */
+#contact {
+    list-style: none;
+    text-decoration: none;
+}
+
+
+#contact {
+    width: auto;
+    border: 1px solid black;
+    padding: 1.5em;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+/* Adding footer style */
+.site_footer p {
+    padding: 30px;
+    text-align: right;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
