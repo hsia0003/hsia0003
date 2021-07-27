@@ -1,0 +1,12 @@
+.block3 {
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 20px;
+   }
+   .block3:hover,
+   .block3:focus {
+    background-color: #00ADD8;
+    color: inherit;
+   }
